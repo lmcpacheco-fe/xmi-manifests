@@ -1,6 +1,6 @@
 # xmi-manifests
-This is a repo for XMI's IMX8MP yocto platform, which is a part of the larger XMI project.
-Based off the work done for the Goldilocks platform developed by Future's FIS team.
+This is a repo for the XMI IMX8MP yocto platform, which is a part of the larger XMI project.
+This project is based off work done for the Goldilocks platform, which was developed by Future's FIS team.
 
 Note: This README assumes the user is running Ubuntu 22.04:
 
@@ -27,8 +27,8 @@ git config --list
 ```
 ## Create the BSP directory and download the Yocto BSP:
 ```
-mkdir ~/mamabear-yocto-bsp
-cd ~/mamabear-yocto-bsp
+mkdir ~/xmi-yocto-bsp
+cd ~/xmi-yocto-bsp
 repo init -u https://github.com/lmcpacheco-fe/xmi-manifests -b main -m xmi-manifest-6.6.23.xml
 repo sync
 ```
